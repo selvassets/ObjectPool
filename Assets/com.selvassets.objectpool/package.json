@@ -1,0 +1,15 @@
+{
+  "name": "com.selvassets.objectpool",
+  "displayName": "SA - Object Pool",
+  "version": "1.0.0",
+  "unity": "2021.1",
+  "description": "Object pool implementation by SelvAssets",
+  "keywords": [
+    "unity",
+    "api",
+    "object pool",
+    "pattern",
+    "programming"
+  ],
+  "category": "Productivity"
+}
