@@ -33,12 +33,17 @@ namespace ObjectPool
 
             obj.Activate();
 
+            obj.Active = true;
+
             return obj;
         }
 
         public void ReturnObject(ref T obj)
         {
             obj.Deactivate();
+
+            obj.Active = false;
+
             _container.Add(obj);
             obj = null;
         }

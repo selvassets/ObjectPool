@@ -52,6 +52,7 @@ namespace ObjectPool
 
         public class TestMonoObject : MonoBehaviour,  IPoolableMono
         {
+            public bool Active { get; set; }
             public int Index { get; set; }
 
             public TestMonoObject()
